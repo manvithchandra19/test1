@@ -1,0 +1,51 @@
+{
+    "meta:license": [
+        "Copyright 2020 Adobe Systems Incorporated. All rights reserved.",
+        "This work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license",
+        "you may not use this file except in compliance with the License. You may obtain a copy",
+        "of the License at https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "$id": "https://ns.adobe.com/xdm/class/asf",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "title": "qwe",
+    "type": "object",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.genesis.com/xdm/data/record"
+    ],
+    "description": "zxcv",
+    "definitions": {
+        "asf": {
+            "properties": {
+                "1234:asdf": {
+                    "title": "wergsd",
+                    "type": "string",
+                    "description": "xczvfg"
+                },
+                "qwer:asd": {
+                    "title": "asdsa",
+                    "type": "object",
+                    "properties": {
+                        "adf:fgdf": {
+                            "title": "gjghj",
+                            "type": "string",
+                            "description": "yjdhf"
+                        }
+                    }
+                },
+                ":": {
+                    "title": "",
+                    "type": "string",
+                    "description": ""
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/asf"
+        }
+    ],
+    "meta:status": "experimental"
+}
